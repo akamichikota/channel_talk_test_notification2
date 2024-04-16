@@ -51,8 +51,8 @@ function notifyChannelTalk($session_id, $message) {
     $url = "https://api.channel.io/open/v5/user-chats/661df20311ad25fb4185/messages";
     $headers = [
         'Content-Type: application/json',
-        'X-Access-Key: 661b221782915c8bc762',
-        'X-Access-Secret: 3580f8e89e85879c260ab394d1779035'
+        'X-Access-Key: myAccessKey',
+        'X-Access-Secret: myAccessSecret'
     ];
 
     $fullMessage = "セッションID {$session_id}: {$message}";
